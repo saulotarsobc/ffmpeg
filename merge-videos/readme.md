@@ -1,6 +1,6 @@
 # Script de Merge de Vídeos
 
-Este script em Bash permite a junção de vários vídeos de um diretório específico em um único arquivo de vídeo utilizando o `ffmpeg`. Ele foi projetado para funcionar em sistemas que tenham o `ffmpeg` instalado e que suportem scripts `.sh` (como ambientes Unix, Git Bash ou MSYS2 no Windows).
+> Este script em Bash permite a junção de vários vídeos de um diretório específico em um único arquivo de vídeo utilizando o `ffmpeg`. Ele foi projetado para funcionar em sistemas que tenham o `ffmpeg` instalado e que suportem scripts `.sh` (como ambientes Unix, Git Bash ou MSYS2 no Windows).
 
 ## Pré-requisitos
 
