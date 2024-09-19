@@ -23,9 +23,9 @@ O script pressupõe a seguinte estrutura de pastas:
 
 ```bash
 project-root/
-├── input/ # Diretório onde os vídeos estão localizados
-├── output/ # Diretório onde o vídeo final será salvo
-└── merge.sh # O script Bash para fazer o merge
+  ├── input/ # Diretório onde os vídeos estão localizados
+  ├── output/ # Diretório onde o vídeo final será salvo
+  └── merge.sh # O script Bash para fazer o merge
 ```
 
 - Coloque os vídeos a serem mesclados no diretório `input`.
