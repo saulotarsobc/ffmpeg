@@ -28,8 +28,8 @@ for video in "$input_dir"/*.$video_extension; do
     base_name=$(basename "$video")
     temp_video="$temp_dir/$base_name"
     
-    # Recodificar o vídeo
-    ffmpeg -i "$video" -c:v libx264 -crf 23 -preset veryfast -c:a aac -b:a 192k "$temp_video"
+    # Recodificar o vídeo com as mesmas propriedades para garantir uniformidade
+    ffmpeg -i "$video" -vf "scale=-2:720" -r 30 -c:v libx264 -crf 23 -preset veryfast -c:a aac -b:a 192k "$temp_video"
     
     # Adicionar o vídeo uniformizado à lista de arquivos com caminho relativo
     echo "file '../temp/$base_name'" >> "$file_list"
