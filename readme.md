@@ -1,3 +1,3 @@
 # FFMPEG
 
-- [Merge Videos](/merge-videos)
+- [Merge Videos](src/merge-videos)
